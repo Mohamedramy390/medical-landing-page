@@ -1,0 +1,55 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/content/hero.json"
+        label: "Hero Section"
+        name: "hero"
+        fields:
+          - {label: "Badge", name: "badge", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "text"}
+          - {label: "CTA Text", name: "ctaText", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+      
+      - file: "src/content/about.json"
+        label: "About Section"
+        name: "about"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description 1", name: "description1", widget: "text"}
+          - {label: "Description 2", name: "description2", widget: "text"}
+          - {label: "Highlight Text", name: "highlight", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Number", name: "number", widget: "string"}
+              - {label: "Label", name: "label", widget: "string"}
+
+      - file: "src/content/services.json"
+        label: "Services Section"
+        name: "services"
+        fields:
+          - {label: "Section Title", name: "title", widget: "string"}
+          - {label: "Section Subtitle", name: "subtitle", widget: "string"}
+          - label: "Services List"
+            name: "services"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "string"}
+              - {label: "Icon", name: "icon", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Short Description", name: "desc", widget: "text"}
+              - {label: "Full Description", name: "fullDescription", widget: "text"}
+              - {label: "Treatments", name: "treatments", widget: "list"}

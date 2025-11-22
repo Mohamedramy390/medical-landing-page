@@ -1,0 +1,48 @@
+{
+    "title": "Our Medical Services",
+    "subtitle": "Comprehensive healthcare solutions tailored to your needs.",
+    "services": [
+        {
+            "id": "cardiology",
+            "icon": "♥",
+            "title": "Cardiology",
+            "desc": "Expert heart care with advanced diagnostic and treatment options for all cardiovascular conditions.",
+            "fullDescription": "Our cardiology department offers comprehensive heart care services. From preventative screenings to advanced surgical interventions, our team of expert cardiologists is dedicated to maintaining your heart health.",
+            "treatments": [
+                "Cardiac Consultations",
+                "Echocardiography",
+                "Stress Testing",
+                "Holter Monitoring",
+                "Hypertension Management"
+            ]
+        },
+        {
+            "id": "pediatrics",
+            "icon": "👶",
+            "title": "Pediatrics",
+            "desc": "Compassionate care for infants, children, and adolescents, ensuring their healthy growth and development.",
+            "fullDescription": "We provide specialized care for infants, children, and adolescents. Our pediatricians focus on the physical, emotional, and social health of children from birth through young adulthood.",
+            "treatments": [
+                "Well-Child Visits",
+                "Immunizations",
+                "Developmental Screenings",
+                "Acute Illness Care",
+                "Chronic Disease Management"
+            ]
+        },
+        {
+            "id": "general-care",
+            "icon": "🔬",
+            "title": "General Care",
+            "desc": "Comprehensive primary care services for the whole family, from check-ups to chronic disease management.",
+            "fullDescription": "Our general care services cover a wide range of medical needs for patients of all ages. We focus on disease prevention, health maintenance, and patient education.",
+            "treatments": [
+                "Annual Physicals",
+                "Preventive Screenings",
+                "Lifestyle Counseling",
+                "Minor Injury Treatment",
+                "Referrals to Specialists"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Meet Dr. Sarah Mitchell",
+    "description1": "With over 15 years of experience in internal medicine, Dr. Mitchell is dedicated to providing personalized care that focuses on the whole patient.",
+    "description2": "She believes in a collaborative approach to healthcare, working closely with patients to develop treatment plans that fit their lifestyle and goals. Her clinic is equipped with state-of-the-art technology to ensure precise diagnoses and effective treatments.",
+    "highlight": "15 years of experience",
+    "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "stats": [
+        {
+            "number": "15+",
+            "label": "Years Experience"
+        },
+        {
+            "number": "5k+",
+            "label": "Happy Patients"
+        },
+        {
+            "number": "4.9",
+            "label": "Patient Rating"
+        }
+    ]
+}

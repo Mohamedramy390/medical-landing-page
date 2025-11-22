@@ -1,0 +1,71 @@
+.service-details-page {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    min-height: 80vh;
+}
+
+.service-details-header {
+    background-color: var(--color-bg-light);
+    padding: 60px 0;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.service-details-title {
+    font-size: 3rem;
+    color: var(--color-secondary);
+    margin-bottom: 16px;
+}
+
+.service-details-icon {
+    font-size: 4rem;
+    display: block;
+    margin-bottom: 20px;
+    color: var(--color-primary);
+}
+
+.service-details-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.service-details-description {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-text-dark);
+    margin-bottom: 40px;
+}
+
+.service-details-list {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.service-details-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.service-details-list li::before {
+    content: "✓";
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--color-text-light);
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.back-link:hover {
+    color: var(--color-primary);
+}
